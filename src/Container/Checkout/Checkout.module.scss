@@ -1,0 +1,25 @@
+.Modal {
+    display: flex;
+    justify-content: center;
+    left: 40%;
+    width: 20%;
+    flex-direction: column;
+    text-align: center;
+
+    &Form {
+        display: flex;
+        flex-direction: column;
+
+        & Input {
+            // width: 50%;
+            margin: .5rem;
+        }
+    }
+
+    &Button {
+        cursor: not-allowed;
+        background-color: #cfbeba;
+        border: 1px solid #cfbeba;
+    }
+    
+}

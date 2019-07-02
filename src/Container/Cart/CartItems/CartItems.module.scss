@@ -1,0 +1,23 @@
+
+
+.CartItems {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+
+    th {
+      text-transform: uppercase;  
+    }
+
+    td, th {
+        border: 1px solid #cfcfcf;
+        text-align: left;
+        padding: 8px;
+        text-align: center;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+}

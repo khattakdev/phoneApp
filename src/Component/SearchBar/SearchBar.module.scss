@@ -1,0 +1,24 @@
+.Search {
+    height: 2.5rem;
+    background: #0052D4;
+    padding: 0rem 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    .SearchTypes {
+        margin-bottom: 0;
+        align-self: center;
+        justify-self: center;
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
+}

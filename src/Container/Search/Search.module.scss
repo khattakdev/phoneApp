@@ -1,0 +1,17 @@
+.Search {
+    margin-bottom: 5rem;
+}
+.SearchType {
+    cursor: pointer;
+
+    &Input {
+        height: 90%;
+        padding: .2rem;
+        color: #505050;
+    }
+    
+
+    &:hover {
+        color: #dae8ff;
+    }
+}

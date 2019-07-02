@@ -1,0 +1,37 @@
+.Modal {
+    // display: flex;
+    // flex-direction: row;
+    // padding: 3rem 2rem;
+    // justify-content: center;
+    // background-color: transparent;
+    border: 0px;
+    box-shadow: 0 0 0;
+    width: 25%;
+    left: 40%;
+    // margin: 0 auto;
+    text-align: center;
+
+    &Form {
+        display: flex;
+        flex-direction: column;
+        // background: white;
+        // padding: 1rem .5rem;
+        // box-shadow: 2px 5px 15px black;
+        // border-radius: 5px;
+        padding: 1rem 1rem;
+        align-items: center;
+        text-transform: uppercase;
+        font-weight: bold;
+       
+        color: rgb(177, 40, 10);
+
+        & > input {
+            margin: .5rem;
+        }
+
+        & button {
+            margin-top: 1rem;
+        }
+    }
+
+}

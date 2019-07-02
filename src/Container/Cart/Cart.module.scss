@@ -1,0 +1,25 @@
+.Cart {
+    margin-top: 4rem;
+    text-align: center;
+    
+    h2 {
+      margin-bottom: 2rem;
+    }
+}
+
+
+.CheckoutButton {
+    margin:  0 auto;
+    margin-top: 2rem;
+    display: block;
+    background: #062096;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: .4rem .8rem;
+}
+
+.DisabledButton {
+  color: rgb(182, 182, 182) !important;
+}

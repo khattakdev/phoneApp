@@ -1,0 +1,42 @@
+.Modal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    
+    .List {
+        display: flex;
+        // justify-content: space-evenly;
+        justify-content: space-around;
+        margin-top: 1rem;
+        width: 100%;
+
+        &Items {
+            list-style-type: none;
+            padding: 0;
+            
+
+        }
+
+        &Item {
+            cursor: pointer;
+            margin-top: 1rem;
+            text-transform: uppercase;
+            
+            
+            h3 {
+                font-size: 1.2rem !important;
+                transition: all .2s;
+
+                
+                &:hover {
+                    color: #6FB1FC;
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+    }
+
+
+}

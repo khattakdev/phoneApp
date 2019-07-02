@@ -1,0 +1,15 @@
+.Search {
+    height: 60%;
+    padding: .2rem;
+    color: #505050;
+    outline: none;
+    border: none;
+    // width: 100%;
+    transition: all .5s ease-out;
+    border-radius: 2px;
+
+    &:focus {
+        // width: 99%;
+        transform: scale(1.05);
+    }
+}

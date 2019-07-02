@@ -1,0 +1,92 @@
+
+.Box {
+    // background: rgb(142, 142, 253);
+    // height: 20rem;
+    
+    width: 9rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: .5rem 0;
+    transition: box-shadow .5s;
+    min-height: 20rem;
+    position: relative;
+    transition: all .2s;
+    cursor: pointer;
+
+    &Image {
+        height: 19rem;
+
+        
+    }
+
+    &Name {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+    }
+
+    &Features {
+        list-style-type: none;
+        width: 100%;
+        padding: .2rem;
+
+        &Value {
+            font-size: 1.2rem;
+        }
+
+    }
+
+    &Feature {
+
+        min-height: 5rem;
+
+        
+        
+    }
+
+    &Feature {
+        width: 90%;
+        margin: .5rem auto;
+        background: white; 
+        display: flex;
+        padding: .5rem .5rem;
+        justify-content: space-between;
+        border-top: 1px solid #5e5e5e88;
+
+        &:last-child {
+            border-bottom: 1px solid #5e5e5e88;
+        }
+        
+        &Value {
+            text-align: right;
+        }
+    }
+
+    &Price {
+        font-size: 1.6rem;
+        color: rgb(50, 50, 68);
+        margin-bottom: 1rem;
+    }
+
+
+    // &:hover {
+    //     box-shadow: 2px 2px 15px 1px rgba(71, 71, 71, 0.24);
+    // }
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    .Button {
+        background: #0052D4;
+    }
+}
+

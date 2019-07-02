@@ -1,0 +1,59 @@
+.Mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+
+    &Device {
+        margin: 0;
+        position: fixed;
+        left: 10%;
+    }
+
+    &Detail {
+        border: 1px solid #cccccc;
+        padding: 1rem;
+        border-radius: 2px;
+        text-align: center;
+        width: 70%;
+
+        input {
+          margin-right: 2rem;
+          width: 4rem;
+          border-radius: 5px;
+          outline: none;
+          border: 1px solid #ff6847;
+        }
+        &Name {
+            margin-bottom: 2rem;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 1rem;
+          }
+          
+          td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+          }
+
+          tr {
+            white-space: normal;
+          }
+          
+          tr:nth-child(even) {
+            background-color: #ff6847;
+            color: white;
+          }
+    }
+
+    .cartButton {
+      cursor: not-allowed; 
+      background-color: #cfbeba;
+      border: 1px solid #cfbeba;
+    }
+}
